@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SegundaActivity" >
+    <TextView
+    	android:id="@+id/textView1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_marginLeft="22dp"
+    	android:layout_marginTop="93dp"
+    	android:text="Bem vindo:"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+    	android:id="@+id/id_txt_recebe_nome"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignBaseline="@+id/textView1"
+    	android:layout_alignBottom="@+id/textView1"
+    	android:layout_marginLeft="34dp"
+    	android:layout_toRightOf="@+id/textView1"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

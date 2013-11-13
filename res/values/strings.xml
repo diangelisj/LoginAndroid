@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Edson</string>
+	<string name="menu_settings">Settings</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="edt_nome"></string>
+	<string name="edt_senha"></string>
+	<string name="title_activity_segunda">SegundaActivity</string>
+	<string name="txt_recebe_nome"></string>
+	<string name="title_activity_ajuda">AjudaActivity</string>
+	
+	
+	
+	
+		<string name="menu_entrar">ENTRAR</string>
+		<string name="menu_sair">Sair</string>
+		<string name="menu_ajuda">Ajuda</string>
+	
+	
+	
+	
+	
+</resources>

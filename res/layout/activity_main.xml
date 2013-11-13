@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity" >
+    <TextView
+    	android:id="@+id/textView1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_marginLeft="76dp"
+    	android:layout_marginTop="72dp"
+    	android:text="Nome:"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+    	android:id="@+id/id_edt_nome"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/textView1"
+    	android:layout_below="@+id/textView1"
+    	android:layout_marginTop="17dp"
+    	android:ems="10"
+    	android:inputType="none"
+    	android:text="@string/edt_nome" />
+    <TextView
+    	android:id="@+id/id_txt_recebe_nome"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/id_edt_nome"
+    	android:layout_below="@+id/id_edt_nome"
+    	android:layout_marginTop="36dp"
+    	android:text="Senha:"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+    	android:id="@+id/id_edt_senha"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/id_txt_recebe_nome"
+    	android:layout_below="@+id/id_txt_recebe_nome"
+    	android:layout_marginTop="18dp"
+    	android:ems="10"
+    	android:inputType="textPassword"
+    	android:text="@string/edt_senha" >
+    	<requestFocus />
+    </EditText>
+</RelativeLayout>
